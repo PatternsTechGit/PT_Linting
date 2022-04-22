@@ -22,9 +22,9 @@ Previously we have
 In this lab we will
 - Install ESLint.
 - Set up AirBnB ESLint Dependencies
-- Fix Lint errors automatically.
-- Install Lint Extension
-- Fix Lint errors line by line
+- Fix Lint errors automatically
+- Install ESLint Extension
+- Fix Lint errors manually
 
 ------------
 
@@ -62,12 +62,13 @@ npm audit fix
 ```
 
 #### Step 3: Configure ESLint AirBnB base for Typescript
-
 Within ESLint config file i.e `.eslintrc.json`  there is an array named `"extends" : [ ]` Add `airbnb-base` in the array to tell from where the linting rules are being matched
 
 ```typescript
 extends: [
-  "airbnb-base",
+"plugin:@angular-eslint/recommended",
+"plugin:@angular-eslint/template/process-inline-templates",
+<mark style="background-color: #FFFF00">"airbnb-base",</mark>
 ]
 ```
 As, the `airbnb-base` rule is only for Javascript, So for Typescript support there is another package, To install that run the following command
@@ -78,6 +79,38 @@ npm i -D eslint-config-airbnb-typescript
 After that, add the following content in the `"extends" : [ ]` array
 ```typescript
 extends: [
-  "airbnb-typescript/base"
+"plugin:@angular-eslint/recommended",
+"plugin:@angular-eslint/template/process-inline-templates",
+"airbnb-base",
+"airbnb-typescript/base"
 ]
 ```
+
+
+#### Step 4: Fix Lint errors Automatically
+
+Run the following command to see all the lint errors.
+
+```typescript
+ng lint
+```
+![Linting erros list](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/Linting erros list.png)
+
+As we can in the above image, we have 262 Errors (261 errors and 1 warning), Lets run the following command to fix these errors automatically
+
+```typescript
+ng lint --fix
+```
+![Linting erros list after autofix](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/Linting erros list after autofix.png)
+
+After running the command we are only left with 15 errors and 1 warning, which we will solve manually in the coming steps....
+
+#### Step 5: Installing ESLint Extension
+Install the ESLint extension by Microsoft for VS Code to highlight Lint erros in our project file easily.
+
+Reload the VS Code after installing the extension.
+
+![ESLint Extension](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/ESLint Extension.png)
+
+#### Step 6: Fix Lint Errors Manually
+Now again run the `ng lint` command to get list all lint errors. Now we can see the where ever we have lint error, it is being highlighted with the help of the ESLint extension. Also we can resolve the error with this extension.
