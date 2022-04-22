@@ -48,7 +48,7 @@ Install the correct versions of each package, which are listed by the command:
 ```typescript
 npm info "eslint-config-airbnb-base@latest" peerDependencies
 ```
-![esLINT_airBnB_Dependencies](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/navBar.png)
+![esLINT_airBnB_Dependencies](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/esLINT_airBnB_Depndencies.png)
 
 As we can see, currently there are two Dependencies and we have already installed `eslint`, Now we will install the `eslint-plugin-import` by using the following command
 
