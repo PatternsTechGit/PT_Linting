@@ -94,14 +94,14 @@ Run the following command to see all the lint errors.
 ```typescript
 ng lint
 ```
-![Linting erros list](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/Linting erros list.png)
+![Linting erros list](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/Linting_erros_list.png)
 
 As we can in the above image, we have 262 Errors (261 errors and 1 warning), Lets run the following command to fix these errors automatically
 
 ```typescript
 ng lint --fix
 ```
-![Linting erros list after autofix](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/Linting erros list after autofix.png)
+![Linting erros list after autofix](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/Linting_errors_list_after_autofix.png)
 
 After running the command we are only left with 15 errors and 1 warning, which we will solve manually in the coming steps....
 
@@ -110,7 +110,7 @@ Install the ESLint extension by Microsoft for VS Code to highlight Lint erros in
 
 Reload the VS Code after installing the extension.
 
-![ESLint Extension](https://github.com/PatternsTechGit/PT_BootstrapNavBar/blob/main/Readme-images/ESLint Extension.png)
+![ESLint Extension](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/ESLint_Extension.png)
 
 #### Step 6: Fix Lint Errors Manually
 Now again run the `ng lint` command to get list all lint errors. Now we can see the where ever we have lint error, it is being highlighted with the help of the ESLint extension. Also we can resolve the error with this extension.
