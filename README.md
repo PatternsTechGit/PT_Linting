@@ -68,7 +68,7 @@ Within ESLint config file i.e `.eslintrc.json`  there is an array named `"extend
 extends: [
 "plugin:@angular-eslint/recommended",
 "plugin:@angular-eslint/template/process-inline-templates",
-<mark style="background-color: #FFFF00">"airbnb-base",</mark>
+"airbnb-base",
 ]
 ```
 As, the `airbnb-base` rule is only for Javascript, So for Typescript support there is another package, To install that run the following command
