@@ -113,4 +113,33 @@ Reload the VS Code after installing the extension.
 ![ESLint Extension](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/ESLint_Extension.png)
 
 #### Step 6: Fix Lint Errors Manually
-Now again run the `ng lint` command to get list all lint errors. Now we can see the where ever we have lint error, it is being highlighted with the help of the ESLint extension. Also we can resolve the error with this extension.
+Now again run the `ng lint` command to get list of all errors. We can see that wherever we have lint error, it is being highlighted, it is due to ESLint extension. Also we can resolve the error with this extension.
+
+Now, we will go line by line and remove all the errors after after getting the list and location of all errors.
+
+- ##### Removing Prefer default export error
+The first error we are going to remove is Prefer default export from all the files as listed, but here we are going to show it for `app-routing.module.ts` only. 
+
+	Click on the underlined line in the file and press **Ctrl + .**  then select **Convert default export to named export** to fix the error as shown in the below image. Similar we will go thorough each file and fix that error wherever this error is.
+
+![Prefer_default export_error](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/Prefer_default_export_error.gif)
+
+- ##### Disable max length on entire file
+In the `polyfills.ts` there is maximum length error, will remove that error for entire file.
+
+![Prefer_default export_error](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/Prefer_default_export_error.gif)
+
+
+- ##### No Empty Lifecycle Method
+In the `toolbar.component.ts` we have empty lifecycle method, so we should not only remove empty lifecycle method from this file but from all files wherever this error is.
+
+![No_Empty_Lifecycle_Method](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/No_Empty_Lifecycle_Method.gif)
+
+
+- ##### No Useless Constructor and Blank Lines
+In the `toolbar.component.ts` we have an useless constructor, so we should not only remove that useless constructor from this file but from all files wherever this error is.
+
+![No_Empty_Lifecycle_Method](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/No_Useless_Constructor.gif)
+
+
+So after going through line by line and solving all error line by line, again run the `ng lint` command and we see there are no error anymore.
