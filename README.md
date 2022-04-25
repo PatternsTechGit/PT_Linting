@@ -142,4 +142,4 @@ In the `toolbar.component.ts` we have an useless constructor, so we should not o
 ![No_Empty_Lifecycle_Method](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/No_Useless_Constructor.gif)
 
 
-So after going through line by line and solving all error line by line, again run the `ng lint` command and we can see there are no error anymore.
+So after going through line by line and resolving all error line by line, again run the `ng lint` command and we can see there are no error anymore.
