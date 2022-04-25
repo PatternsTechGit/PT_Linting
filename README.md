@@ -118,9 +118,9 @@ Now again run the `ng lint` command to get list of all errors. We can see that w
 Now, we will go line by line and remove all the errors after after getting the list and location of all errors.
 
 - ##### Removing Prefer default export error
-The first error we are going to remove is Prefer default export from all the files as listed, but here we are going to show it for `app-routing.module.ts` only. 
+The first error we are going to remove is Prefer default export from all the files as listed, but here we are going to show it for `app-routing.module.ts` only.
 
-	Click on the underlined line in the file and press **Ctrl + .**  then select **Convert default export to named export** to fix the error as shown in the below image. Similar we will go thorough each file and fix that error wherever this error is.
+Click on the underlined line in the file and press **Ctrl + .**  then select **Convert default export to named export** to fix the error as shown in the below image. Similar we will go thorough each file and fix that error wherever this error is.
 
 ![Prefer_default export_error](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/Prefer_default_export_error.gif)
 
@@ -142,4 +142,4 @@ In the `toolbar.component.ts` we have an useless constructor, so we should not o
 ![No_Empty_Lifecycle_Method](https://github.com/PatternsTechGit/PT_Linting/blob/main/Readme-images/No_Useless_Constructor.gif)
 
 
-So after going through line by line and solving all error line by line, again run the `ng lint` command and we see there are no error anymore.
+So after going through line by line and solving all error line by line, again run the `ng lint` command and we can see there are no error anymore.
