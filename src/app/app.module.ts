@@ -17,4 +17,4 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export default class AppModule { }
