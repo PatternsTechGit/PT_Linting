@@ -1,4 +1,4 @@
-# Incorporating ESLint in Angular Application
+# Incorporating ESLint in Angular Application (CHANGE TRY BY DEV_TEAM)
 
 ### What is Linting?
 Linting is the automated checking of source code for programmatic and stylistic errors. This is done by using a lint tool (otherwise known as linter). A lint tool is a basic static code analyzer, we will be using [ESLint](https://dev.to/shivambmgupta/eslint-what-why-when-how-5f1d "ESLint").
