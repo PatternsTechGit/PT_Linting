@@ -26,11 +26,11 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.5",
-    "@angular-eslint/builder": "13.2.0",
-    "@angular-eslint/eslint-plugin": "13.2.0",
-    "@angular-eslint/eslint-plugin-template": "13.2.0",
-    "@angular-eslint/schematics": "13.2.0",
-    "@angular-eslint/template-parser": "13.2.0",
+    "@angular-eslint/builder": "13.2.1",
+    "@angular-eslint/eslint-plugin": "13.2.1",
+    "@angular-eslint/eslint-plugin-template": "13.2.1",
+    "@angular-eslint/schematics": "13.2.1",
+    "@angular-eslint/template-parser": "13.2.1",
     "@angular/cli": "~13.2.5",
     "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
@@ -48,5 +48,17 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.5.2"
-  }
+  },
+  "description": "Built into Bootstrap are a number of reusable elements, conveniently styled out with accompanying JS to easily add components such as navigations, alerts, dropdowns, buttons, responsive tables, lists, responsive media objects, and more!",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatternsTechGit/PT_Linting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatternsTechGit/PT_Linting/issues"
+  },
+  "homepage": "https://github.com/PatternsTechGit/PT_Linting#readme"
 }
